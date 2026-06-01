@@ -1,10 +1,10 @@
-## 2006 / 06 / 02
-## 題目：[2144. Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/?envType=daily-question&envId=2026-06-01)
-### 難度：Easy
-## 解題策略
+### 2006 / 06 / 02
+### 題目：[2144. Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/?envType=daily-question&envId=2026-06-01)
+#### 難度：Easy
+### 解題策略
 就是單純使用`sort`去進行**由大到小**的排列即可，但需要預防 `out of range`
 
-## 程式碼
+### 程式碼
 ```cpp=
 class Solution {
 public:
