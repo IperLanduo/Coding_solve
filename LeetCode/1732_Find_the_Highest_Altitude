@@ -1,0 +1,22 @@
+### 日期：2026/06/20
+### 題目：(1732. Find the Highest Altitude)[https://leetcode.com/problems/find-the-highest-altitude/description/?envType=daily-question&envId=2026-06-19]
+#### 難度：Easy
+### 解題策略
+應該算是前綴和?
+
+### 程式碼
+```cpp=
+class Solution {
+public:
+    int largestAltitude(vector<int>& gain) {
+        int n=gain.size();
+        int high=0;
+        int ans=0;
+        for(int i=0;i<n;i++){
+            high+=gain[i];
+            ans=max(ans,high);
+        }
+        return ans;
+    }
+};
+```
