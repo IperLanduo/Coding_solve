@@ -1,5 +1,5 @@
 ### 日期：2026/06/20
-### 題目：(1732. Find the Highest Altitude)[https://leetcode.com/problems/find-the-highest-altitude/description/?envType=daily-question&envId=2026-06-19]
+### 題目：[1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/?envType=daily-question&envId=2026-06-19)
 #### 難度：Easy
 ### 解題策略
 應該算是前綴和?
